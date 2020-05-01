@@ -5,23 +5,25 @@
 }
 
 body{
-    
+  width: 900px;  
 background: white;
 }
 h1{text-align: center;}
 .container{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin:auto;
+    padding: 40px;
     display: grid;
     background-color: aquamarine;
-    grid-template-columns: 400px 1fr;
-    grid-template-rows: 50px 400px;
-    grid-gap: 5px;
+    width: 900px;
+    height:650px;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 50px 550px;
+    grid-gap: 10px;
     
 }
 header{
     color: aliceblue;
-    background: black;
+    background: brown;
     grid-column: 1/3;
     
     
